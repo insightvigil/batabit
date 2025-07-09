@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="./CSS/tablet.css" media="(min-width: 930px)">
 </head>
 
 <body>
@@ -168,29 +169,58 @@
 
         
         <section id="planes" class="plans-container">
-            <div class="plans__text-content">
                 <h2>Escoge el plan que mejor se ajuste a ti</h2>
                 <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
-            </div>
-
             <section class="plans__slider">
-
 <!-- --------------------------------------Card 1 ------------------------------------------------------------ -->
-                <article class="plan__card plan__card-anual">
-                    <p>Recomendado</p>
+                <article class="plan__card plan__card-mensual">
+            
                     <div class="plan__card-info-container">
-                        <h3 class="plan__card-title">Pago anual</h3>
-                        <p class="plan__card-price">$<span> 99</span></p>
-                        <p "plan__card-saving">* Ahorras $129 comparado al plan mensual.</p>
+                        <h3 class="plan__card-title">Pago mensual</h3>
+                        <p class="plan__card-price"><span>$</span>5</p>
+                        <p class="plan__card-saving">*Pagas 1 vez al mes desde el día de tu compra.</p>
                         <button class="plan__card-CTA">Escoger este <span></span></button>
                     </div>
                 </article>
+
+                <article class="plan__card plan__card-anual">
+                    <p class="plan__card-recommended">Recomendado</p>
+                    <div class="plan__card-info-container">
+                        <h3 class="plan__card-title">Pago anual</h3>
+                        <p class="plan__card-price"><span>$</span>99</p>
+                        <p class="plan__card-saving">* Ahorras $129 comparado al plan mensual.</p>
+                        <button class="plan__card-CTA">Escoger este <span></span></button>
+                    </div>
+                </article>
+
+                <article class="plan__card plan__card-life-time">
+                    <div class="plan__card-info-container">
+                        <h3 class="plan__card-title">Lifetime</h3>
+                        <p class="plan__card-price"><span>$</span>129</p>
+                        <p class="plan__card-saving">*Paga por única ocasión.</p>
+                        <button class="plan__card-CTA">Escoger este <span></span></button>
+                    </div>
+                </article>
+
+                
 
 
             </section>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <section class="left">
+            <ul>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Crunchbase</a></li>
+                <li><a href="#">Hackernew</a></li>
+
+            </ul>
+    </section>
+        <section class="right">
+            <img src="./assets/imgs/logo-footer.svg" alt="Logo de BatataBit 2020">
+        </section>
+    </footer>
     
 </body>
 </html>
