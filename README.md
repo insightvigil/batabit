@@ -1,6 +1,6 @@
 ## Batabit 🚀
 
-A landing page for an app called Batabit. In this project, I put all my design skills into practice and applied coding best practices to build a clean, modern page. This was a simulation where a design team provided me with a Figma design file and I transformed that design into a fully functional, deployed product.
+A landing page for an bitcoin app called Batabit. In this project, I put all my design skills into practice and applied coding best practices to build a clean, modern page. This was a simulation where a design team provided me with a Figma design file and I transformed that design into a fully functional, deployed product.
 
 ### Applied technologies 🧑‍💻
 - HTML
