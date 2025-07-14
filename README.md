@@ -8,7 +8,7 @@ A landing page for an app called Batabit. In this project, I put all my design s
 - Figma
 
 ### Features ⚙️
--Responsive design 
+- Responsive design 
 
 You can check it out live [here](https://insightvigil.github.io/batabit).
 
